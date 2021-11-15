@@ -5,11 +5,11 @@ The videos are taken by an unmanned aerial vehicle, leading to complex and dynam
 
 ##### Train dataset
 
-The train dataset contains 107 training videos,  and all videos are normal videos and do not contain abnormal videos.
+The train dataset contains 130 training videos, and all videos are normal videos and do not contain abnormal videos.
 
 ##### Test dataset
 
-The test dataset contains 30 videos, and some of the videos have abnormal conditions. We have given annotations for the abnormal conditions. The annotations are stored in the npy file. We store the npy files in the mask folder. And the  npy files storage format is as follows:
+The test dataset contains 15 videos, and some of the videos have abnormal conditions. We have given annotations for the abnormal conditions. The annotations are stored in the npy file. We store the npy files in the mask folder. And the  npy files storage format is as follows:
 
 ```python
 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
