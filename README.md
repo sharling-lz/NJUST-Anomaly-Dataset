@@ -1,6 +1,7 @@
 ## NJUST-Anomaly Dataset
 
-#### NJUST-Anomaly dataset contains 137 videos, including 107 training video clips and 30 testing video clips. The videos are taken by an unmanned aerial vehicle, leading to complex and dynamic backgrounds. Meanwhile, the video scenes  are more abundant and diverse. Events may happen on the road,  playground or lawn. Moreover, our dataset is independent of specific scenes. All of the video clips and annotations can be downloaded [here](https://pan.baidu.com/s/1TT8Qn0Q8nkhxOeY5_QaiRg). Extraction code: wpbj. 
+#### NJUST-Anomaly dataset contains 145 videos, including 130 training video clips and 15 testing video clips. 
+The videos are taken by an unmanned aerial vehicle, leading to complex and dynamic backgrounds. Meanwhile, the video scenes  are more abundant and diverse. Events may happen on the road,  playground or lawn. Moreover, our dataset is independent of specific scenes. All of the video clips and annotations can be downloaded [here](https://pan.baidu.com/s/1TT8Qn0Q8nkhxOeY5_QaiRg). Extraction code: wpbj. 
 
 ##### Train dataset
 
