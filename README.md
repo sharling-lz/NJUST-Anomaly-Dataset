@@ -26,6 +26,14 @@ The test set contains 15 videos, and some of the videos have abnormal conditions
 
 where 0 represents a video frame under normal conditions, and 1 represents a video frame under abnormal conditions.
 
+
+#### Human detection and pose estimation results
+To facilitate further research, we provide human pose estimation results on the NJUST-Anomaly dataset.
+We use [CenterNet](https://github.com/xingyizhou/CenterNet)+[Deep_sort](https://github.com/nwojke/deep_sort)+[HRNet](https://github.com/HRNet/HRNet-Human-Pose-Estimation) to get the human poses. Other human detector, multi-object tracking method, and human pose estimation method can be used.
+
+![Human pose in normal video](./pose_normal.gif)
+![Human pose in abnormal video](./pose_abnormal.gif)
+
 #### Dataset directory
 The directory of the dataset should look like as follows:
 ```
@@ -35,6 +43,11 @@ ${NJUST-Anomaly data}
        | |-- 1.mp4
        | |-- 2.mp4
        | |-- 3.mp4
+       | |-- ...
+    `--|--pose
+       | |-- 1.json
+       | |-- 2.json
+       | |-- 3.json
        | |-- ...
 `-- test
     `--|-- videos
@@ -47,6 +60,11 @@ ${NJUST-Anomaly data}
        | |-- 2.npy
        | |-- 3.npy
        | |-- ... 
+    `--|--pose
+       | |-- 1.json
+       | |-- 2.json
+       | |-- 3.json
+       | |-- ...
     
 ```
 
