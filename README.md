@@ -74,19 +74,16 @@ ${NJUST-Anomaly data}
 If you use our dataset in your research, please cite with:
 
 ```
-@inproceedings{10.1145/3444685.3446316,
+@inproceedings{tang-graph-2021,
 author = {Tang, Yao and Zhao, Lin and Yao, Zhaoliang and Gong, Chen and Yang, Jian},
 title = {Graph-Based Motion Prediction for Abnormal Action Detection},
 year = {2021},
-isbn = {9781450383080},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3444685.3446316},
 doi = {10.1145/3444685.3446316},
 booktitle = {Proceedings of the 2nd ACM International Conference on Multimedia in Asia},
 articleno = {63},
 numpages = {7},
-keywords = {graph convolutional network, abnormal action detection, motion prediction},
 location = {Virtual Event, Singapore},
 series = {MMAsia '20}
 }
